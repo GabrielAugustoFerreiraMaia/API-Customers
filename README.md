@@ -3,6 +3,12 @@
 ## Descrição
 Este projeto consiste em uma API desenvolvida utilizando Node.js, Prisma e MongoDB. A API oferece operações CRUD (Create, Read, Update, Delete) para gerenciar clientes.
 
+## Tecnologias Utilizadas
+[![Node.js](https://img.shields.io/badge/Node.js-v14.0.0-green)](https://nodejs.org/)
+[![Prisma](https://img.shields.io/badge/Prisma-v3.0.0-blue)](https://www.prisma.io/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-v4.0.0-orange)](https://www.mongodb.com/)
+
+
 ## Requisitos
 Certifique-se de ter os seguintes requisitos instalados em sua máquina antes de executar o projeto:
 - Node.js
@@ -37,13 +43,11 @@ Crie um arquivo .env na raiz do projeto e configure as variáveis necessárias. 
 ## Rotas da API
 
 ### Listar Todos os Clientes
-- **Endpoint:** `GET /clientes`
+- **Endpoint:** `GET /customers`
 
-### Obter um Cliente Específico
-- **Endpoint:** `GET /clientes/:id`
 
 ### Criar um Novo Cliente
-- **Endpoint:** `POST /clientes`
+- **Endpoint:** `POST /customer`
 - **Corpo da Requisição:**
   ```json
   {
@@ -53,7 +57,7 @@ Crie um arquivo .env na raiz do projeto e configure as variáveis necessárias. 
   }
 ### Excluir um Cliente
 
-- **Endpoint:** `DELETE /clientes/:id`
+- **Endpoint:** `DELETE /customer/:id`
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests.
