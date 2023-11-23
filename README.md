@@ -51,9 +51,8 @@ Crie um arquivo .env na raiz do projeto e configure as variáveis necessárias. 
 - **Corpo da Requisição:**
   ```json
   {
-    "nome": "Nome do Cliente",
-    "email": "email@dominio.com",
-    "telefone": "123456789"
+    "name": "Nome do Cliente",
+    "email": "email@dominio.com"
   }
 ### Excluir um Cliente
 
